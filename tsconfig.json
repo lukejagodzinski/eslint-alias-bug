@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "CommonJS",
+    "paths": {
+      "@root/*": ["packages/*/src"],
+    },
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules", "packages/**/dist"]
+}

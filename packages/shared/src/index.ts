@@ -1,0 +1,3 @@
+const sharedFn = () => {};
+
+export { sharedFn };

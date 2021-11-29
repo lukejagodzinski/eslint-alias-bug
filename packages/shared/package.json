@@ -1,0 +1,13 @@
+{
+  "name": "@root/shared",
+  "private": true,
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint \"./src/**/*.{ts,tsx}\"",
+    "ts:check": "tsc --noEmit"
+  },
+  "dependencies": {}
+}

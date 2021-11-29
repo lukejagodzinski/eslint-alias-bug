@@ -1,0 +1,13 @@
+{
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.workingDirectories": [
+    // { "changeProcessCWD": true, "directory": "./packages/one" },
+    { "changeProcessCWD": true, "directory": "./packages/*" }
+  ]
+}

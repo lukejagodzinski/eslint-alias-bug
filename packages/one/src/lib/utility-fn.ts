@@ -1,0 +1,3 @@
+const utilityFn = () => {};
+
+export { utilityFn };

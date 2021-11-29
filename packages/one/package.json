@@ -1,0 +1,12 @@
+{
+  "name": "@root/one",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint \"./src/**/*.{ts,tsx}\"",
+    "ts:check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@root/shared": "^1.0.0"
+  }
+}
